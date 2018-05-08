@@ -39,10 +39,10 @@ npm install weilbith/vue-device-detector
 ### Module
 ```js
 import Vue from 'vue'
-import VueDeviceDetecor from 'vue-device-detector'
+import DeviceDetector from 'vue-device-detector'
 ```
 
-The plugin registered itself to _Vue_. Anyway it could been added by `Vue.use(VueDeviceDetector)`.
+The plugin registered itself to _Vue_. Anyway it could been added by `Vue.use(DeviceDetector)`.
 
 ---
 
@@ -90,9 +90,9 @@ UpperGroup: `desktop`<br>
 ### Practise
 ```js
 import Vue from 'vue'
-import { VueDeviceDetecor, DeviceTypEnum } from 'vue-device-detector'
+import { DeviceDetector, DeviceTypeEnum } from 'vue-device-detector'
 
-Vue.use(VueDeviceDetector, { breaker: DeviceTypEnum.desktop })
+Vue.use(DeviceDetector, { breaker: DeviceTypeEnum.desktop })
 ```
 ---
 
